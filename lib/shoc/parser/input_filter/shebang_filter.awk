@@ -1,0 +1,2 @@
+# Ignore shebang line
+/^#!.*/ { next }
