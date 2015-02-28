@@ -6,12 +6,12 @@
 #   #!/bin/bash
 #   say_hello
 # @author Ilkka Hakkarainen <ilkka.hakkarainen@cs.helsinki.fi>
-# @todo say_hello should have user name
+# @todo say_hello should accept username as an argument
 function say_hello() {
   echo 'hello'
 }
 
-# shoc should extract this call and comment
+# shoc should ignore this call and comment
 say_hello
 
 # Says goodbye to the user.
@@ -29,7 +29,7 @@ say_good_morning() {
 
 # Says goodnight to the madame.
 say_good_night() {
-  echo 'Good night, ma'am'
+  echo 'Good night, ma\'am'
 }
 
 # and these too
