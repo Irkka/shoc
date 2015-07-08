@@ -3,8 +3,8 @@ BEGIN {
   banner_print(message)
 }
 
-@include "shebang_filter"
-@include "docstring_filter"
+@include "shoc-parser-input_filter-shebang_filter"
+@include "shoc-parser-input_filter-docstring_filter"
 
 END {
   message = "Filtering complete!"

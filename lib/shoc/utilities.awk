@@ -1,2 +1,2 @@
-@include "banner.awk"
-@include "color.awk"
+@include "shoc-utilities-banner.awk"
+@include "shoc-utilities-color.awk"

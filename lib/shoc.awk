@@ -1,3 +1,3 @@
 #!/usr/bin/awk -f
 
-@include "parser.awk"
+@include "shoc-parser.awk"

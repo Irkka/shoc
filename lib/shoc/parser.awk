@@ -1,4 +1,4 @@
-@include "utilities.awk"
+@include "shoc-utilities.awk"
 
 BEGIN {
   message = "Initiating comment block parsing sequence"
@@ -9,7 +9,7 @@ BEGIN {
   FS="\n"
 }
 
-@include "input_filter.awk"
+@include "shoc-parser-input_filter.awk"
 
 END {
   message = "Code block parsing sequence complete!"
